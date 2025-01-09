@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapeado Imagenes</title> <!--El título de la página web, de la pestaña, según el anunciado.-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png"> <!--Aquí he introducido el icon de la pestaña.-->
+</head>
+<body align="center" bgcolor="#d9f18e"> <!--He puesto center aquí en el body, en Firefox no se centra pero en Chrome y Edge sí-->
+    <h1><font color="white" size="80px">Marvel Legacy</font></h1> <!--Título (header) según pedido en el enunciado.-->
+    <h2>Mapa interactivo de los personajes más importantes del Universo Marvel.</h2> <!--Título de nivel 2 con sus atributos como solicitado.-->
+    <h5>Pincha sobre los personajes que aparecen en el siguiente listado, y verás  información detalla sobre cada uno de ellos:</h5> <!--Usé un título de nivel 5 para tenerlo igual al enunciado.-->
+    <p><img src="img/Marvel-Legacy-personajes.jpg" usemap="#marvelmap"></p> <!--El mapeado de las caras del imagen principal con sus atributos.-->
+    <map name="marvelmap">
+        <area shape="poly" coords="166,30,195,41,200,95,187,131,163,154,132,135,115,80,125,32" href="https://es.wikipedia.org/wiki/Deadpool" title="Deadpool" target="_blank">
+        <area shape="poly" coords="676,163,711,180,717,231,709,274,684,308,654,300,634,269,627,226,633,180" href="https://es.wikipedia.org/wiki/Iron_Man" title="Iron Man" target="_blank">
+        <area shape="poly" coords="369,15,428,27,428,81,420,131,394,154,347,157,319,126,311,78,314,27" href="https://es.wikipedia.org/wiki/Hulk" title="Hulk" target="_blank">
+        <area shape="poly" coords="199,164,240,175,255,236,236,281,204,306,167,282,155,232,156,185,173,168" href="https://es.wikipedia.org/wiki/Miles_Morales" title="Spiderman (Miles Morales)" target="_blank">
+        <area shape="poly" coords="69,321,118,333,116,398,101,439,77,457,50,455,26,425,13,372,12,327" href="https://es.wikipedia.org/wiki/Capit%C3%A1n_Am%C3%A9rica" title="Capitán América" target="_blank">
+        <area shape="poly" coords="183,318,245,301,242,380,237,436,206,490,149,472,133,436,121,302" href="https://es.wikipedia.org/wiki/Jane_Foster" title="Jane Foster (Thor Mujer)" target="_blank">
+        <area shape="poly" coords="384,294,434,321,429,411,411,433,388,443,367,435,344,406,345,363,345,322" href="https://es.wikipedia.org/wiki/Star-Lord" title="Star-Lord" target="_blank">
+    </map>
+    <h2><font color="white" size="32px" face="Verdana">Tabla de personajes</font></h2> <!--Creación del título de la tabla de los personajes con los atributos pedidos.-->
+    <ul type="square"> <!--Creación de la lista desordenada de los personajes, con sus atributos solicitados.-->
+        <font color="red">
+        <li><p><font color="red" face="Verdana" size="14px">Deadpool</font></p></li>
+        <li><p><font color="gold" face="Verdana" size="14px">Ironman</font></p></li>
+        <li><p><font color="green" face="Verdana" size="14px">Hulk</font></p></li>
+        <li><p><font color="black" face="Verdana" size="14px">Spiderman</font></p></li>
+        <li><p><font color="blue" face="Verdana" size="14px">Capitán América</font></p></li>
+        <li><p><font color="orange" face="Verdana" size="14px">Jane Foster (Thor Mujer)</font></p></li>
+        <li><p><font color="#f18ebb" face="Verdana" size="14px">Star-Lord</font></p></li>
+    </ul>
+    </font>
+    <p><font size="3px">Si quieres saber más sobre tus personajes, contacta conmigo en el siguiente 
+        <a href="mailto:raul.rodriguez@proeducaglobal.com ">link</a></font></a></p> <!--Introducción de la frase con el enlace al email en la palabra "link"-->
+</body>
+</html>

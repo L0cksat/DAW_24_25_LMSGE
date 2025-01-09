@@ -1,2 +1,7 @@
 # DAW_24_25_LMSGE
-Este repositorio es para los proyectos y/o tareas para la asignatura de UNIR: DAW 24/25 Lenguajes de Marcas
+Hola! Bienvenido al README de este repo, es más bien para comentar unas cosas aquí (y más bien para mi).
+
+1. Primero, he subido la carpeta donde tengo todos proyectos de Lenguajes de Marcas.
+
+
+CONTINUARÁ
