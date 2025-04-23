@@ -32,7 +32,7 @@ ul{
 
     padding: 10px 15px;
 
-    /*Por defecto, los elemnetos están en línea, 
+    /*Por defecto, los elementos están en línea, 
     y si los dejamos de esta manera, se van a solapar. Para evitar esto, 
     lo que hacemos es convertir los elementos en bloques (blocks) 
     y conseguimos el siguiente resultado de cajas alienadas*/
